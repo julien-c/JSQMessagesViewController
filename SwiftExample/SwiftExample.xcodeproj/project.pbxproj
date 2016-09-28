@@ -13,7 +13,6 @@
 		F80276D51CE3915700063D88 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80276D41CE3915700063D88 /* ChatViewController.swift */; };
 		F80276D71CE3928200063D88 /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80276D61CE3928200063D88 /* ConversationListViewController.swift */; };
 		F82D09C31CDFBB4900DD74CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D09C21CDFBB4900DD74CF /* AppDelegate.swift */; };
-		F82D09C51CDFBB4900DD74CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D09C41CDFBB4900DD74CF /* ViewController.swift */; };
 		F82D09C81CDFBB4900DD74CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82D09C61CDFBB4900DD74CF /* Main.storyboard */; };
 		F82D09CA1CDFBB4900DD74CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82D09C91CDFBB4900DD74CF /* Assets.xcassets */; };
 		F82D09CD1CDFBB4900DD74CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82D09CB1CDFBB4900DD74CF /* LaunchScreen.storyboard */; };
@@ -40,7 +39,6 @@
 		F80276D61CE3928200063D88 /* ConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
 		F82D09BF1CDFBB4900DD74CF /* SwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82D09C21CDFBB4900DD74CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F82D09C41CDFBB4900DD74CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F82D09C71CDFBB4900DD74CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F82D09C91CDFBB4900DD74CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F82D09CC1CDFBB4900DD74CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				F82D09C21CDFBB4900DD74CF /* AppDelegate.swift */,
-				F82D09C41CDFBB4900DD74CF /* ViewController.swift */,
 				F80276D01CE38FA600063D88 /* DemoConversation.swift */,
 				F80276D41CE3915700063D88 /* ChatViewController.swift */,
 				F80276D61CE3928200063D88 /* ConversationListViewController.swift */,
@@ -289,7 +286,6 @@
 				F80276D31CE38FEB00063D88 /* Conversation.swift in Sources */,
 				F80276D11CE38FA600063D88 /* DemoConversation.swift in Sources */,
 				F80276D71CE3928200063D88 /* ConversationListViewController.swift in Sources */,
-				F82D09C51CDFBB4900DD74CF /* ViewController.swift in Sources */,
 				F80276D51CE3915700063D88 /* ChatViewController.swift in Sources */,
 				F82D09C31CDFBB4900DD74CF /* AppDelegate.swift in Sources */,
 			);

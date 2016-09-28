@@ -17,19 +17,24 @@ class ConversationsListViewController: UIViewController, UITableViewDataSource, 
     
     @IBOutlet weak var tableView: UITableView?
     
-    var conversations = [Conversation]()
+    var conversations: [Conversation] = getConversation()
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        self.conversations = getConversation()
         self.tableView?.reloadData()
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Hides empty cells
         tableView?.tableFooterView = UIView()
+        
+        let chatVc = ChatViewController()
+        chatVc.conversation = conversations.first
+        navigationController?.pushViewController(chatVc, animated: false)
     }
+    
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return conversations.count

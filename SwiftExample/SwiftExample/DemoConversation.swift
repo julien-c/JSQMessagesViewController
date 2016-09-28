@@ -40,6 +40,6 @@ func makeConversation()->[JSQMessage]{
     return conversation
 }
 
-func getConversation()->[Conversation]{
+func getConversation() -> [Conversation] {
     return [convo]
 }
