@@ -35,8 +35,10 @@ let message3 = JSQMessage(senderId: AvatarIdWoz, displayName: DisplayNameWoz, te
 let message4 = JSQMessage(senderId: AvatarIdJobs, displayName: DisplayNameJobs, text: "JSQMessagesViewController is nearly an exact replica of the iOS Messages App. And perhaps, better.")
 let message5 = JSQMessage(senderId: AvatarIDLeonard, displayName: DisplayNameLeonard, text: "It is unit-tested, free, open-source, and documented.")
 
-func makeConversation()->[JSQMessage]{
-    conversation = [message, message2,message3, message4, message5]
+let message6 = JSQMessage(senderId: AvatarIdWoz, displayName: DisplayNameWoz, media: JSQPhotoMediaItem(image: UIImage(named: "NiceSelfi")))
+
+func makeConversation() -> [JSQMessage] {
+    conversation = [message, message2, message3, message4, message5, message6]
     return conversation
 }
 
