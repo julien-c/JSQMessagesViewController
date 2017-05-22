@@ -38,7 +38,7 @@ let message5 = JSQMessage(senderId: AvatarIDLeonard, displayName: DisplayNameLeo
 let message6 = JSQMessage(senderId: AvatarIdWoz, displayName: DisplayNameWoz, media: JSQPhotoMediaItem(image: UIImage(named: "NiceSelfi")))
 
 func makeConversation() -> [JSQMessage] {
-    conversation = [message, message2, message3, message4, message5, message6]
+    conversation = [message!, message2!, message3!, message4!, message5!, message6!]
     return conversation
 }
 
